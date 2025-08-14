@@ -36,5 +36,5 @@ app.use("/orders", ordersRoute);
 app.use("/users", UserRoutes);
 
 // ✅ 5. Start Server
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3006;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
